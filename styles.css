@@ -38,7 +38,7 @@ navbar */
   width: 32px;
 }
 
-.home_searchbtn{
+.home_searchbtn {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -61,8 +61,8 @@ navbar */
   color: rgb(179, 179, 179);
 }
 
-.searchbar{
-  background-color: rgb(31,31,31);
+.searchbar {
+  background-color: rgb(31, 31, 31);
   height: 48px;
   width: 41vw;
   border-radius: 30px;
@@ -70,8 +70,7 @@ navbar */
   justify-content: space-evenly;
 }
 
-.searchicon{
- 
+.searchicon {
   font-size: 22px;
   height: 48px;
   width: 48px;
@@ -80,8 +79,7 @@ navbar */
   align-items: center;
 }
 
-
-.inpt{
+.inpt {
   background-color: transparent;
   border: none;
   width: 75%;
@@ -89,19 +87,17 @@ navbar */
   color: white;
   font-size: 16px;
   font-weight: 500;
-
 }
-.inpt::placeholder{
-  color: rgb(156,156,156);
+.inpt::placeholder {
+  color: rgb(156, 156, 156);
 }
-.searchbar:hover{
-  background-color: #2A2A2A;
+.searchbar:hover {
+  background-color: #2a2a2a;
   color: rgb(179, 183, 183);
   cursor: pointer;
 }
 
-
-.market{
+.market {
   width: 3vh;
   display: flex;
   justify-content: center;
@@ -113,7 +109,8 @@ navbar */
 }
 
 /* Sign In button styling */
-.signin, .login {
+.signin,
+.login {
   height: 48px;
   width: 9vw;
   display: flex;
@@ -134,14 +131,14 @@ navbar */
 }
 
 /* Hover effect for both signin and login */
-.signin:hover, .login:hover {
+.signin:hover,
+.login:hover {
   transform: scale(1.05); /* Zoom in animation */
 }
 
-.login:hover{
+.login:hover {
   background-color: rgb(224, 225, 227);
 }
-
 
 /* container design */
 
@@ -153,15 +150,154 @@ navbar */
 
 .left {
   width: 30%;
-  background-color: brown;
-  border: 2px solid beige;
-  margin: 3px;
+  background-color: rgb(18,18,18);
+ 
+  margin-top: 10px;
+  height: 100%;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.libsvg {
+  height: 32px;
+  width: 32px;
+}
+
+.libsvg img {
+  fill: white;
+}
+
+.head1 {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+
+}
+
+.lib{
+  display: flex;
+  margin-left: 10px;
+  gap: 5px;
+  justify-content: space-between;
+  align-items: center;
+  font-size:1.48vw;
+  font-weight: 700;
+  color: rgb(179,179,179);
+  cursor: pointer;
+}
+
+.lib:hover{
+  color: white;
+}
+
+.pluscon{
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pluscon:hover{
+  background-color: rgb(31,31,31);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.leftpart2 {
+  background-color: rgb(31, 31, 31);
+  color: white;
+  padding: 30px;
+ margin: 50px 10px;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+}
+
+.paral {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.lpara1 {
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.lpara2 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.createplay {
+  background-color: white;
+  color: black;
+  width: 60%;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Spacing between rows */
+  margin-left: 40px;
+  color: rgb(179,179,179);
+  font-size: 11px;
+}
+
+.row {
+  display: flex;
+  gap: 20px; /* Spacing between text items in each row */
+}
+
+.row div {
+  cursor: pointer;
+}
+
+.row div:hover {
+  cursor: pointer;
+  text-decoration: underline; /* Underline on hover for better interactivity */
+}
+
+.cook{
+  margin-left: 40px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.cook:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.engbtn{
+  display: flex;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin: 30px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+  width: 9vw;
+  height: 5.5vh;
+  border-radius: 20px;
+}
+.engbtn img{
+  height: 20px;
+  width: 20px;
+}
 /* right */
 .right {
   width: 70%;
-  background-color: aqua;
-  border: 2px solid beige;
+  /* background-color: aqua;
+  border: 2px solid beige; */
   margin: 3px;
 }
