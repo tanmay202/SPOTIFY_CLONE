@@ -289,6 +289,13 @@ navbar */
   width: 9vw;
   height: 5.5vh;
   border-radius: 20px;
+
+  
+  transition: transform 0.3s ease-in-out;
+}
+.engbtn:hover {
+  cursor: pointer;
+  transform: scale(1.05); /* Slight zoom-out effect */
 }
 .engbtn img{
   height: 20px;
