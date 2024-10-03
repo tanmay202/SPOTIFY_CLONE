@@ -43,6 +43,7 @@ navbar */
   align-items: center;
   justify-content: space-between;
   width: 45vw;
+  margin-left: 150px;
 }
 
 .homebtn {
@@ -67,7 +68,7 @@ navbar */
   width: 41vw;
   border-radius: 30px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .searchicon {
@@ -98,11 +99,20 @@ navbar */
 }
 
 .market {
-  width: 3vh;
+  height: 32px;
+  margin: 8px;
+  width: 8vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-left: 1px rgb(124, 124, 124) solid;
 }
+
+.Svg-sc-ytk21e-0 {
+  width: 24px; /* Resize the SVG */
+  height: 24px; /* Resize the SVG */
+}
+
 /* Container styling */
 .in {
   display: flex;
@@ -150,8 +160,8 @@ navbar */
 
 .left {
   width: 30%;
-  background-color: rgb(18,18,18);
- 
+  background-color: rgb(18, 18, 18);
+
   margin-top: 10px;
   height: 100%;
   border-radius: 8px;
@@ -172,26 +182,25 @@ navbar */
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-
 }
 
-.lib{
+.lib {
   display: flex;
   margin-left: 10px;
   gap: 5px;
   justify-content: space-between;
   align-items: center;
-  font-size:1.48vw;
+  font-size: 1.48vw;
   font-weight: 700;
-  color: rgb(179,179,179);
+  color: rgb(179, 179, 179);
   cursor: pointer;
 }
 
-.lib:hover{
+.lib:hover {
   color: white;
 }
 
-.pluscon{
+.pluscon {
   height: 32px;
   width: 32px;
   display: flex;
@@ -199,8 +208,8 @@ navbar */
   align-items: center;
 }
 
-.pluscon:hover{
-  background-color: rgb(31,31,31);
+.pluscon:hover {
+  background-color: rgb(31, 31, 31);
   border-radius: 50%;
   cursor: pointer;
 }
@@ -208,7 +217,7 @@ navbar */
   background-color: rgb(31, 31, 31);
   color: white;
   padding: 30px;
- margin: 50px 10px;
+  margin: 50px 10px;
   border-radius: 10px;
   font-family: Arial, sans-serif;
 }
@@ -217,13 +226,11 @@ navbar */
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
-  
 }
 
 .lpara1 {
   font-size: 16px;
   font-weight: bold;
-  
 }
 
 .lpara2 {
@@ -244,13 +251,12 @@ navbar */
   margin-top: 20px;
 }
 
-
 .footer {
   display: flex;
   flex-direction: column;
   gap: 20px; /* Spacing between rows */
   margin-left: 40px;
-  color: rgb(179,179,179);
+  color: rgb(179, 179, 179);
   font-size: 11px;
 }
 
@@ -268,17 +274,17 @@ navbar */
   text-decoration: underline; /* Underline on hover for better interactivity */
 }
 
-.cook{
+.cook {
   margin-left: 40px;
   margin-top: 10px;
   font-size: 12px;
 }
 
-.cook:hover{
+.cook:hover {
   text-decoration: underline;
   cursor: pointer;
 }
-.engbtn{
+.engbtn {
   display: flex;
   margin-left: 40px;
   margin-top: 20px;
@@ -290,21 +296,118 @@ navbar */
   height: 5.5vh;
   border-radius: 20px;
 
-  
   transition: transform 0.3s ease-in-out;
 }
 .engbtn:hover {
   cursor: pointer;
   transform: scale(1.05); /* Slight zoom-out effect */
 }
-.engbtn img{
+.engbtn img {
   height: 20px;
   width: 20px;
 }
+
 /* right */
 .right {
   width: 70%;
-  /* background-color: aqua;
-  border: 2px solid beige; */
-  margin: 3px;
+  background-color: rgb(18, 18, 18);
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.browse {
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.boxt {
+  width: 21vw;
+  height: 27vh;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.boxt img {
+  position: absolute;
+  height: 115px;
+  width: 115px;
+  transform: rotate(20deg);
+  border-radius: 10px;
+  left: 65%;
+  top: 40px;
+}
+
+.boxt h2 {
+  width: 13vw;
+  height: auto;
+  margin: 20px;
+}
+
+.music {
+  background-color: rgb(220, 20, 140);
+}
+
+.pod {
+  background-color: rgb(0, 100, 80);
+}
+
+.live {
+  background-color: rgb(132, 0, 231);
+}
+
+.made {
+  background-color: rgb(30, 50, 100);
+}
+
+.new {
+  background-color: rgb(96, 129, 8);
+}
+
+.hin {
+  background-color: rgb(220, 20, 140);
+}
+
+.punj {
+  background-color: rgb(176, 40, 151);
+}
+
+.tam {
+  background-color: rgb(165, 103, 82);
+}
+
+.tel {
+  background-color: rgb(186, 93, 7);
+}
+
+.mal {
+  background-color: rgb(71, 125, 149);
+}
+
+.love {
+  background-color: rgb(220, 20, 140);
+}
+
+.pop {
+  background-color: rgb(71, 125, 149);
+}
+
+.well {
+  background-color: rgb(20, 138, 8);
+}
+
+.net {
+  background-color: rgb(230, 30, 50);
+}
+
+.anime {
+  background-color: rgb(13, 115, 236);
 }

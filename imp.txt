@@ -1,0 +1,78 @@
+            <div class="boxt">
+                <h2 class="bh2">Made for you</h2>
+                <img src="./Images/music.jpeg" alt="">
+            </div>
+
+            <div class="boxt">
+                <h2 class="bh2">Made for you</h2>
+                <img src="./Images/music.jpeg" alt="">
+            </div>
+
+            <div class="boxt">
+                <h2 class="bh2">Made for you</h2>
+                <img src="./Images/music.jpeg" alt="">
+            </div>
+
+            <div class="boxt">
+                <h2 class="bh2">Made for you</h2>
+                <img src="./Images/music.jpeg" alt="">
+            </div>
+
+            <div class="boxt">
+                <h2 class="bh2">Made for you</h2>
+                <img src="./Images/music.jpeg" alt="">
+            </div>
+            <div class="boxt">
+                <h2 class="bh2">Made for you</h2>
+                <img src="./Images/music.jpeg" alt="">
+            </div>
+
+
+
+
+
+
+
+
+
+
+            
+.cardcontainer{
+  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.boxt {
+  position: relative;
+  width: 21vw;
+  height: 27vh;
+  border-radius: 10px;
+  margin-top: 10px;
+  overflow: hidden; 
+  background-color: rgb(220, 20, 140);
+}
+
+.boxt img {
+  position: absolute;
+  height: 115px;
+  width: 115px;
+  transform: rotate(20deg);
+  border-radius: 10px;
+  left: 65%; 
+  top: 40px;
+}
+
+.bh2{
+  width: 13vw;
+  height: auto;
+  margin: 20px;
+}
+
+.music{
+  background-color: rgb(220, 20, 140);
+}
